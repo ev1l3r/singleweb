@@ -12,7 +12,7 @@ pre{ white-space:pre-wrap; /* css3.0 */ white-space:-moz-pre-wrap; /* Firefox */
 .master-logo{ width:2.86rem; height:1.3rem; margin:auto; background-image:url(../images/logo-x.png); background-position:center; background-repeat:no-repeat;background-size:2.86rem 1.3rem; margin-bottom:0.5rem; margin-top:0.3rem;}
 .master-mi{ width:100%; height:auto; min-height:3rem;}
 .master-url{ max-width:750px; height:auto;min-height:1.5rem; margin:auto; font-size:0.15rem;}
-.master-url li{ width:100px; min-height:0.4rem;  text-align:center; float:left;}
+.master-url li{ width:100px; min-height:0.4rem;font-size: 14px; text-align:center; float:left;}
 .master-url li a{ color:#555;}
 .master-url li a:hover{ color:#01AAED;}
 .master-bo{ width:100%; height:0.25rem; line-height:0.25rem;text-align:center; font-size:0.14rem; position:absolute; bottom:0;}
@@ -21,7 +21,7 @@ pre{ white-space:pre-wrap; /* css3.0 */ white-space:-moz-pre-wrap; /* Firefox */
 #search{max-width:717px;margin:100px auto 14px}
 #search form{position:relative}
 #search-text{padding:9pt;width:100%;height:50px;font-size:1pc;border:1px solid #494949;border-radius:10px 10px 10px 10px;background-color:#fff}
-#search button{position:absolute;top:0;right:0;background:#313437;color:#fff; font-size:0.19rem;font-family:"Times New Roman";border:0;width:60px;height:36px;margin:7px 9pt 0;line-height:36px;border-radius:3px}
+#search button{position:absolute;top:0;right:0;background:#313437;color:#fff; font-size:14px;font-family:"Times New Roman";border:0;width:60px;height:36px;margin:7px 9pt 0;line-height:36px;border-radius:3px}
 #search button:hover{background:#000;cursor:pointer}
 #search button i{color:#fff;font-size:18px}
 .search-group{display:none;padding-left:75px}

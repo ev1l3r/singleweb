@@ -305,7 +305,7 @@ body.night .EKHJj {
 	right: 10px;
 	top: 40%;
 	/* 垂直位置 */
-	font-family: "寰蒋闆呴粦";
+	font-family: "宋体";
 	font-size: 14px;
 	color: #243558;
 	z-index: 10000
@@ -997,7 +997,7 @@ body.night .EKHJj {
 	right: 10px;
 	top: 65%;
 	/* 垂直位置 */
-	font-family: "寰蒋闆呴粦";
+	font-family: "宋体";
 	font-size: 14px;
 	color: #243558;
 	z-index: 10000
@@ -1821,7 +1821,7 @@ footer.main-footer .footer-inner:after,
 .highlights li:after,
 .navbar.horizontal-menu .navbar-inner>.nav>li .dropdown-menu>.external a:before,
 .navbar.horizontal-menu .navbar-inner>.nav>li .dropdown-menu>.external a:after {
-	content: " ";
+	/*Yao删除 content: " ";*/
 	display: table
 }
 
@@ -5178,7 +5178,9 @@ body.chat-open #chat {
 	.page-container .sidebar-menu .sidebar-menu-inner .logo-env,
 	.page-container .sidebar-menu .sidebar-menu-inner .main-menu {
 		padding-left: 20px;
-		padding-right: 20px
+		padding-right: 20px;
+		padding-bottom: 0px;
+		display: none;
 	}
 
 	.page-container .sidebar-menu .sidebar-menu-inner .logo-env {
