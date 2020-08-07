@@ -1,4 +1,4 @@
-::-webkit-scrollbar {/*滚动条整体样式*/
+﻿::-webkit-scrollbar {/*滚动条整体样式*/
 width: 5px; /*高宽分别对应横竖滚动条的尺寸*/
 height: 5px;
 }
@@ -48,10 +48,10 @@ img {
     .logo_size{ 
         max-width: 180px;
     }
-	.page-container .main-content { 
-     margin-top: -20px!important;
-     margin-bottom: 30px!important;
-	}
+	/*.page-container .main-content { */
+    /* margin-top: -20px!important;*/
+    /* margin-bottom: 30px!important;*/
+	/*}*/
 	.zmki_top_main{
 	margin-top: 0px!important;
 }
@@ -96,7 +96,7 @@ li{
     margin-left: 10px;
 }
 .zmki_yldh { 
-    margin-left: -100%;
+    margin-left: 0px;
 }
 }
 
@@ -3454,7 +3454,7 @@ footer.main-footer:after {
 	margin-right: auto
 }
 .zmki_footer_mar{
-    margin: 15px 0px;
+    margin: 8px 0px;
 }
 
 footer.main-footer .footer-text {
@@ -5274,7 +5274,8 @@ body.chat-open #chat {
 		left: 0;
 		right: auto;
 		margin-left: -30px;
-		margin-right: -30px
+		margin-right: -30px;
+		margin-top: calc(50vh);
 	}
 
 	.page-container {
