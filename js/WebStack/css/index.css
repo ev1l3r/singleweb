@@ -47,7 +47,7 @@ pre{ white-space:pre-wrap; /* css3.0 */ white-space:-moz-pre-wrap; /* Firefox */
 .search-type li{list-style:none;display:inline-block}
 @media screen and (max-width:767px){#search{margin:25px auto 15px}
 .s-type-list label{padding:5px 0}
-.search-type{overflow:scroll}
+.search-type{right: -17px; overflow-x: hidden; overflow-y: scroll;}
 }
 
 /* 搜索框内CSS */
