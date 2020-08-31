@@ -9,7 +9,7 @@ img{ border-width:0;}
 *:focus {outline: none} /*禁止所有input添加选定框*/
 pre{ white-space:pre-wrap; /* css3.0 */ white-space:-moz-pre-wrap; /* Firefox */ white-space:-pre-wrap; /* Opera 4-6 */ white-space:-o-pre-wrap; /* Opera 7 */ word-wrap:break-word; /* Internet Explorer 5.5+ */}
 .master-top{ width:100%; height:0.5rem;line-height:0.5rem; padding:0 0.1rem;}
-.master-logo{ width:2.86rem; height:1.3rem; margin:auto; background-image:url(../images/logo-x.png); background-position:center; background-repeat:no-repeat;background-size:2.86rem 1.3rem; margin-bottom:0.5rem; margin-top:0.3rem;}
+.master-logo{ width:3.5rem; height:1.3rem; margin:auto; background-image:url(../images/logo-x.png); background-position:center; background-repeat:no-repeat;background-size:3.5rem 1.3rem; margin-bottom:0.5rem; margin-top:0.3rem;}
 .master-mi{ width:100%; height:auto; min-height:3rem;}
 .master-url{ max-width:750px; height:auto;min-height:1.5rem; margin:auto; font-size:0.15rem;}
 .master-url li{ width:100px; min-height:0.4rem;font-size: 14px; text-align:center; float:left;}
