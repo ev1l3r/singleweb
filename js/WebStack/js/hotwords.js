@@ -3701,9 +3701,3 @@ function setContainerSize() {
 $(window).resize(function() {
     setContainerSize()
 });
-var _hmt = _hmt || []; (function() {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?ebc7ab2c45f5003187cbe4f4761c1063";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(hm, s)
-})();
