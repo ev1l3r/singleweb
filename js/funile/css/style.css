@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 /* Global */
+html {
+	height: 100%;
+}
 
 body,
 p,
@@ -15,6 +18,9 @@ input {
 
 body {
     background: url(../images/bg.gif);
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
 }
 
 ul,
@@ -359,11 +365,15 @@ ul.icon_list li span {
     background: url(../images/icon_25.gif) 6px center no-repeat;
 }
 
+.push {
+	border-top: 1px #ddd solid;
+}
 .footer {
     width: 920px;
     margin: 0 auto;
-    border-top: 1px #ddd solid;
     padding: 20px;
+	  grid-row-start: 2;
+	  grid-row-end: 3;
 }
 
 .footer p {
@@ -372,6 +382,16 @@ ul.icon_list li span {
     line-height: 22px;
     text-align: center;
 }
+.footer p {
+    color: #888;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.footer .div_m:hover img{
+    display:block; 
+} 
 
 .scroll {
     width: 80px;
